@@ -1,0 +1,25 @@
+.mainContainer{
+  height: 3rem;
+  width: 100%;
+  border-bottom: 2px solid rgb(251, 136, 136);
+  display: flex;
+}
+.mainContainer a {
+  color: rgb(251, 136, 136);
+}
+
+.navLinksContainer {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.loginContainer {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

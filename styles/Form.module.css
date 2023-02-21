@@ -1,0 +1,48 @@
+/* Form */
+.formContainer {
+  height: 20rem;
+  width: 15rem;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.inputContainer {
+  height: 5rem;
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+ justify-content: space-evenly;
+}
+
+.inputContainer input {
+  height: 2rem;
+}
+
+.btnContainer {
+  height: 4rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.btnContainer button {
+  width: 90%;
+  height: 80%;
+  background-color: rgb(251, 136, 136);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+.btnContainer button:hover {
+cursor: pointer;
+transform: scale(1.1);
+}
